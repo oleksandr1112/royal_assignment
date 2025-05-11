@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section id="scene1" class="scene active" >  
+        <h1>Привіт</h1>
+        <p class="start-text">Готовий зіграти у фентезі гру?</p>
+        <button class="btn-color1 btn" data-target="scene2">Почати</button>  
+        <img class="img-dragon" src="img/Dragon.png" alt="">
+        <img class="img-fantasy" src="img/Fantasy.png" alt="">
+    </section>
+   
+    
+    <section id="scene2" class="scene " >
+        <div class="contaner-text">
+            <h1>Початок</h1>
+            <p>Ви - місцевий маг. Король запрошує  Вас до себе і наказує прогнати дракона з гори біля замку.  </p>
+        </div>
+        <div class="btn-and-img">
+            <button class="btn-color2" data-target="scene3">Відправитися на завдання</button>
+            <img class="img" src="img/image1.png" alt="">
+        </div>
+    </section>
+    
+    <section id="scene3" class="scene " >
+        <div class="contaner-text">
+                <h1>Шлях до гори</h1>
+                <p>До гори можна дійти через ліс або через долину. Який шлях Ви оберете?  </p>
+        </div>
+        <div class="btn-and-img">
+            <div class="contaner-btn">
+                <button class="btn-color2" data-target="scene4a">Піти через ліс</button>
+                <button class="btn-color2" data-target="scene4b">Піти через долину</button>
+                <button class="btn-color2" data-target="random">Випадковий вибір</button>
+            </div>
+            <img class="img" src="img/image2.png" alt="">
+        </div>
+    </section>
+    <section id="scene4a" class="scene " >
+        <div class="contaner-text">
+                <h1>Зустріч у лісі</h1>
+                <p>У лісі зустрівся магічний вовк, який не бажає Вас пропустити. Що Ви будете робити?   </p>
+        </div>
+        <div class="btn-and-img">
+            <div class="contaner-btn">
+                <button class="btn-color2" data-target="scene5">Прогнати його за допомогою магії</button>
+                <button class="btn-color2" data-target="scene7">Перелетіти його за допомогою магії і не чіпати магічного вовка</button>
+            </div>
+            <img class="img" src="img/image3.png" alt="">
+        </div>
+    </section>
+    <section id="scene4b" class="scene " >
+        <div class="contaner-text">
+                <h1>Зустріч у долині</h1>
+                <p>У долині Вас зустрів велетень, який не хоче Вас пропускати, якщо Ви не виконаєте його завдання. Він хоче, щоб Ви принесли йому букет квітів.   </p>
+        </div>
+        <div class="btn-and-img">
+            <div class="contaner-btn">
+                <button class="btn-color2" data-target="scene7">Принести букет квітів</button>
+                <button class="btn-color2" data-target="scene6">Спробувати пробігти повз нього</button>
+            </div>
+            <img class="img" src="img/image 4.png" alt="">
+        </div>
+    </section>
+    <section id="scene5" class="scene " >  
+            <h1>Поразка</h1>
+            <p> 
+                У магічного вовка виявилася сила щита, який відкинув Ваші атаки на Вас. Вас переможено. Але Ви можете спробувати знову.
+            </p>
+            <button class="btn-color1 btn" data-target="scene2">Почати знову</button>  
+        
+    </section>
+    <section id="scene6" class="scene " >  
+            <h1>Поразка</h1>
+            <p> 
+                Велетень виявився спритним і спіймав Вас. Вас переможено. Але Ви можете спробувати знову
+            </p>
+            <button class="btn-color1 btn" data-target="scene2">Почати знову</button>  
+        
+    </section>
+    <section id="scene7" class="scene " >
+        <div class="contaner-text">
+                <h1>Зустріч з драконом</h1>
+                <p>Ви дійшли до гори, але дракон пропонує відвезти Вас в особливе місце.   </p>
+        </div>
+        <div class="btn-and-img">
+            <div class="contaner-btn">
+                <button class="btn-color2" data-target="scene9">Погодитись </button>
+                <button class="btn-color2" data-target="scene8">Все одно прогнати дракона</button>
+            </div>
+            <img class="img" src="img/image 5.png" alt="">
+        </div>
+        <img class="img-fantasy2" src="img/Fantasy2.png" alt="">
+    </section>
+    <section id="scene9" class="scene " >
+        <div class="contaner-text">
+                <h1>Місто гномів</h1>
+                <p>Ви прибуваєте до міста гномів, мешканці якого просять Вас допомогти. Ви повинні захистити місто і гномів від чарівної істоти, яка прийшла взяти собі поїсти.   </p>
+        </div>
+        <div class="btn-and-img">
+            <div class="contaner-btn">
+                <button class="btn-color2" data-target="scene10">Допомогти гномам </button>
+                
+            </div>
+            <img class="img" src="img/image 6.png" alt="">
+        </div>
+    </section>
+    <section id="scene8" class="scene " >
+        <div class="contaner-text">
+                <h1>Повернення</h1>
+                <p>Ви повернулсь у королівство, король радо зустрічає Вас.   </p>
+        </div>
+        <div class="btn-and-img">
+            <div class="contaner-btn">
+                <button class="btn-color2" data-target="scene2">Зіграти знову </button>
+                
+            </div>
+            <img class="img" src="img/image 8.png" alt="">
+        </div>
+    </section>
+    <section id="scene10" class="scene " >
+        <div class="contaner-text">
+                <h1>Зустріч з чарівною істотою</h1>
+                <p>Ось чарівна істота. Ви можете скористатися магією для того, щоб прогнати її, або для того, щоб начаклувати їй їжу. Що Ви обирете?    </p>
+        </div>
+        <div class="btn-and-img">
+            <div class="contaner-btn">
+                <button class="btn-color2" data-target="scene11a">Начаклувати їй їжу </button>
+                <button class="btn-color2" data-target="scene11b">Прогнати її </button>
+            </div>
+            <img class="img" src="img/image 7.png" alt="">
+        </div>
+    </section>
+    <section id="scene11b" class="scene " >  
+        <h1>Поразка</h1>
+        <p> 
+            Чарівна істота виявилася сильнішою. Вас переможено. Але Ви можете спробувати знову.
+        </p>
+        <button class="btn-color1 btn" data-target="scene2">Почати знову</button>  
+    
+</section>
+<section id="scene11a" class="scene " >
+    <div class="contaner-text">
+            <h1>Повернення додому</h1>
+            <p>Ви допомогли гномам і можете повертатись додому.    </p>
+    </div>
+    <div class="btn-and-img">
+        <div class="contaner-btn">
+            <button class="btn-color2" data-target="scene2">Зіграти знову </button>
+           
+        </div>
+        <img class="img" src="img/image 9.png" alt="">
+    </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
